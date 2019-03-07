@@ -1,0 +1,62 @@
+.loginPage {
+   width: 100%;
+}
+
+.loginPage h3 span {
+   color: #b5b3ea;
+   border-radius: 5px;
+   border: 1px solid white;
+   padding: 10px;
+}
+
+.loginPage form {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  border: 1px solid white;
+  margin-left: 20%;
+  margin-top: 70px;
+  padding-top: 20px;
+}
+
+.loginPage form p {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.loginPage form p span {
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.loginPage form input {
+  padding: 15px;
+  border-radius: 5px;
+  width: 80%;
+  /* background-color: silver; */
+  color: white;
+  margin-left: 7%;
+  font-size: 16px;
+  border: none;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.loginPage form label {
+  margin-left: 7%;
+  color: white;
+}
+
+.loginPage button {
+  padding: 10px 30px;
+  float: right;
+  color: white;
+  background-color: green;
+  margin-right: 7.5%;
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 15px;
+}

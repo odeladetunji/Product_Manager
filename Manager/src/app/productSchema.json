@@ -1,0 +1,34 @@
+// Products
+[
+    {
+      "identity": "",
+      "product_name": "",
+      "available_Quantity": "",
+      "availablity_status": "",
+      "image_url": "",
+      "fileObject": "",
+      "product_discription": "",
+      "production_date": ""
+    }
+]
+
+[
+    "// Company Details"
+    {
+      "company_name": "",
+      "company_email": "",
+      "password": "",
+      "company_address": "",
+      "telephone": "",
+      "company_logo": ""
+    }
+
+    "//company locations (Distribution Points)"
+    {
+      "company_locations": []
+    }
+]
+
+
+// identity will be eight digit e.g
+"48493832", "38784903", "75635254", "98076543"

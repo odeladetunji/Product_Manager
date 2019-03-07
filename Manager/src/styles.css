@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  font-family: verdana;
+  padding: 0px;
+  margin: 0px;
+  border: border-box;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #131414;
+}

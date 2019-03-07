@@ -1,0 +1,26 @@
+.leftNav {
+  width: 100%;
+}
+
+.leftNav div p a {
+  color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.leftNav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.leftNav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.leftNav ul li:nth-child(1) {
+  margin-top: 10px;
+}

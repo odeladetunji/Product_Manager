@@ -1,0 +1,15 @@
+div {
+  width: 30%;
+  background-color: white;
+  margin-left: 70%;
+  padding: 10px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-top: 10px;
+}
+
+div p {
+  background-color: white;
+  text-align: center;
+  color: green;
+}

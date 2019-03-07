@@ -1,0 +1,106 @@
+.outlets h4{
+   color: orange;
+   font-size: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+}
+
+.individualStore {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.individualStore .city {
+  width: 10%;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.individualStore .location {
+  width: 20%;
+  background-color: cyan;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.individualStore .manager {
+  width: 18%;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.individualStore .telephone {
+  width: 15%;
+  background-color: cyan;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.individualStore .status {
+  width: 12%;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+.individualStore1 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.individualStore1 .city {
+  width: 10%;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.individualStore1 .location {
+  width: 20%;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.individualStore1 .manager {
+  width: 18%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.individualStore1 .telephone {
+  width: 15%;
+  background-color: black;;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.individualStore1 .status {
+  width: 12%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+<div class="board">
+  <div class="volumes">
+    <div class="leftTile">
+      <h4>Stock Metrics</h4>
+    </div>
+    <div class="selectForm">
+       <p>Specific item</p>
+       <form action="">
+         <select class="selectProducts">
+           <option value="Cement">Cement</option>
+           <option value="Sugar">Sugar</option>
+           <option value="Rice">Rice</option>
+           <option value="Salt">Salt</option>
+         </select>
+       </form>
+    </div>
+    <div class='volumeMetrics'>
+      <div class="totalVolumes">
+        <h4>total 100%</h4>
+        <div></div>
+      </div>
+      <div class="soldVolume">
+        <h4>Sold 50%</h4>
+        <div id="outer">
+          <div id="inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stockStatus">
+      <h5>Stock Status</h5>
+      <p (click)="thresholdlist()">status <br> Ok!</p>
+  </div>
+</div>
+
+<div class="board">
+  <div class="warehouses" (click)="warehouses()">
+    <h4>WareHouses</h4>
+    <i class="fas fa-database"></i>
+  </div>
+  <div class="widgets">
+      <h4>Reports</h4>
+      <div class="newReports">
+        <div class="leftSide">
+          <p (click)="displayNewReports()">New Reports</p>
+        </div>
+        <div class="rightSide">
+          <p>45</p>
+        </div>
+      </div>
+
+      <div class="absentReports">
+        <div class="leftSide">
+          <p (click)="displayMissingReports()">Missing Reports</p>
+        </div>
+        <div class="rightSide">
+          <p>65</p>
+        </div>
+      </div>
+
+      <div class="outlets">
+        <div class="leftSide">
+          <p>Expected Reports</p>
+        </div>
+        <div class="rightSide">
+           <p>43</p>
+        </div>
+      </div>
+  </div>
+</div>

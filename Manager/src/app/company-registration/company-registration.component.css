@@ -1,0 +1,67 @@
+.companyRegistration {
+  width: 100%;
+  color: white;
+}
+
+.companyRegistration h3 span {
+   border-radius: 5px;
+   border: 1px solid white;
+   padding: 10px;
+   color: #b5b3ea;
+}
+
+.create_account_form {
+  width: 60%;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 20%;
+}
+
+.create_account_form p {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.create_account_form p {
+  margin-left: 10px;
+}
+
+.create_account_form p span {
+   padding: 10px 30px;
+   background-color: blue;
+}
+
+.create_account_form {
+
+}
+
+.create_account_form label {
+  margin-left: 7%;
+}
+
+.create_account_form input {
+  width: 80%;
+  margin-left: 7%;
+  color: white;
+  /* background-color: silver; */
+  padding: 17px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+}
+
+.create_account_form button {
+  padding: 10px 30px;
+  float: right;
+  margin-right: 7.5%;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}

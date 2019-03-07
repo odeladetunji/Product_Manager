@@ -1,0 +1,107 @@
+.notificationUpdate {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  display: none;
+}
+
+.customNotification {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.initingApp {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.editProduct {
+  display: none;
+}
+
+.parentCover {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+
+.parentCover .nav_cover {
+  background-color: black;
+  height: 760px;
+  margin-left: 0px;
+}
+
+.each_product {
+  display: none;
+}
+
+.main {
+  position: absolute;
+  left: 20%;
+  width: 80%;
+  /* overflow: scroll; */
+}
+
+.loader_interface {
+   background-color: rgba(0, 0, 0, 0.7);
+   width: 100%;
+   padding-top: 200px;
+   padding-bottom: 300px;
+   position: fixed;
+   top: 0px;
+   visibility: hidden;
+}
+
+.nav_cover {
+  position: fixed;
+  left: 0px;
+  width: 20%;
+}
+
+.actual_loader {
+  width: 100px;
+  height: 100px;
+  border: 10px solid orange;
+  border-left: 10px solid white;
+  border-radius: 10px solid white;
+  margin-left: 47%;
+  border-radius: 50%;
+  -webkit-animation-name: rotation;
+	-ms-animation-name: rotation; /* Safari 4.0 - 8.0 */
+	animation-name: rotation;
+    animation-duration: .03s;
+    -webkit-animation-duration: .03s; /* Safari */
+    -ms-animation-duration: .03s;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rotation {
+    0%   {transform: rotate(90deg);}
+    25%  {transform: rotate(180deg);}
+    50%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+/* Standard syntax */
+@keyframes rotation {
+    0%   {transform: rotate(90deg);}
+    25%  {transform: rotate(180deg);}
+    50%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
