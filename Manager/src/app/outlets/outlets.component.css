@@ -6,9 +6,9 @@
 }
 
 .individualStore {
-  width: 100%;
+  width: 98%;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: white;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .individualStore1 {
-  width: 100%;
+  width: 98%;
   display: flex;
   margin-bottom: 20px;
   background-color: black;

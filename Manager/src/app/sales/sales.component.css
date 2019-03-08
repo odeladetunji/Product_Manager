@@ -5,7 +5,7 @@
   margin-bottom: 10px;
 }
 .salesHeading {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-wrap: nowrap;
   margin-left: 20px;
@@ -15,7 +15,8 @@
 
 .salesHeading #item {
    width: 40%;
-   padding: 10px;
+   font-weight: bold;
+   padding: 20px;
    color: white;
    text-align: center;
 }
@@ -23,13 +24,93 @@
 .salesHeading #quantity {
    width: 20%;
    color: white;
+   font-weight: bold;
    text-align: center;
-   padding:10px;
+   padding:20px;
 }
 
 .salesHeading #price {
   width: 20%;
   color: white;
+  font-weight: bold;
   text-align: center;
-  padding:10px;
+  padding:20px;
+
+}
+
+.a_particular_product {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  /* border-bottom: 1px solid #eeeeee; */
+  width: 95%;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.a_particular_product p {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.a_particular_product .aItem {
+  width: 40%;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.a_particular_product .aQuantity {
+  width: 20%;
+  color: black;
+  text-align: center;
+  padding:20px;
+  background-color: #fafafa;
+}
+
+.a_particular_product .aPrice {
+  width: 20%;
+  color: black;
+  text-align: center;
+  padding:20px;
+  background-color: #fafafa;
+}
+
+.aTotal {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 95%;
+}
+
+.aTotal .totaling {
+   width: 70%;
+}
+
+.aTotal .totallingMoney {
+   width: 30%;
+}
+
+.aTotal .totaling p {
+  background-color: cyan;
+  color: black;
+  padding: 20px;
+  padding-left: 180px;
+  font-weight: bold;
+}
+
+.aTotal .totallingMoney {
+  color: black;
+  padding: 20px;
+  background-color: cyan;
+}
+
+.aTotal .totallingMoney p {
+  margin-left: 50px;
+  font-weight: bold;
 }

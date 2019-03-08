@@ -33,4 +33,8 @@ export class DashBoardComponent implements OnInit {
     this.router.navigate(['/reporthistory']);
   }
 
+  discountedSales(){
+    this.router.navigate(['/discountedsales']);
+  }
+
 }

@@ -55,19 +55,14 @@
   width: 96.5%;
   margin-left: 20px;
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
   border: 1px solid white;
 }
 
-.phone1 {
-  background-color: black;
-  color: white;
-  text-align: center;
-  width: 15%;
-  padding: 20px;
-}
-
 .city1 {
-  background-color: black;
+  /* background-color: white; */
   color: white;
   padding: 20px;
   width: 15%;
@@ -75,7 +70,7 @@
 }
 
 .address1 {
-  background-color: black;
+  /* background-color: cyan; */
   color: white;
   padding: 20px;
   width: 30%;
@@ -83,9 +78,17 @@
 }
 
 .manager1 {
-  background-color: black;
+  /* background-color: white; */
   color: white;
   padding: 20px;
   text-align: center;
   width: 22%;
+}
+
+.phone1 {
+  /* background-color: cyan; */
+  color: white;
+  text-align: center;
+  width: 15%;
+  padding: 20px;
 }

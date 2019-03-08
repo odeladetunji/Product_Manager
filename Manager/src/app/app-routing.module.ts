@@ -17,6 +17,8 @@ import { IndividualStoreComponent } from './individual-store/individual-store.co
 import { WarehouseDetailsComponent } from './warehouse-details/warehouse-details.component';
 import { ReportHistoryComponent } from './report-history/report-history.component';
 import { SalesComponent } from './sales/sales.component';
+import { DiscountListComponent } from './discount-list/discount-list.component';
+import { DiscountedDetailsComponent } from './discounted-details/discounted-details.component';
 
 
 const routes: Routes = [
@@ -36,7 +38,9 @@ const routes: Routes = [
   {path: 'individualstores', component: IndividualStoreComponent},
   {path: 'warehousedetails', component: WarehouseDetailsComponent},
   {path: 'reporthistory', component: ReportHistoryComponent},
-  {path: 'sales', component: SalesComponent}
+  {path: 'sales', component: SalesComponent},
+  {path: 'discountedsales', component: DiscountListComponent},
+  {path: 'discounteddetails', component: DiscountedDetailsComponent}
 ];
 
 @NgModule({

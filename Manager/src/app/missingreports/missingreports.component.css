@@ -7,8 +7,8 @@
   flex-wrap: nowrap;
   width: 100%;
   border: 1px solid white;
-  width: 95%;
-  margin-bottom: 20px;
+  width: 94.5%;
+  margin-bottom: 10px;
   margin-left: 20px;
   background-color: black;
 }
@@ -16,7 +16,7 @@
   background-color: black;;
   color: white;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
   width: 22%;
 }
@@ -25,7 +25,7 @@
   background-color: black;
   color: white;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
   width: 15%;
   text-align: center;
 }
@@ -36,14 +36,14 @@
   font-weight: bold;
   text-align: center;
   width: 15%;
-  padding: 15px;
+  padding: 20px;
 }
 
 #addressHead {
   background-color: black;
   color: white;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
   width: 30%;
   text-align: center;
 }
@@ -61,9 +61,9 @@
 .eachReport {
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 98%;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .city {

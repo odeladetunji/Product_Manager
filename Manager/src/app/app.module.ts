@@ -29,6 +29,8 @@ import { IndividualStoreComponent } from './individual-store/individual-store.co
 import { WarehouseDetailsComponent } from './warehouse-details/warehouse-details.component';
 import { ReportHistoryComponent } from './report-history/report-history.component';
 import { SalesComponent } from './sales/sales.component';
+import { DiscountListComponent } from './discount-list/discount-list.component';
+import { DiscountedDetailsComponent } from './discounted-details/discounted-details.component';
 
 
 @NgModule({
@@ -59,7 +61,9 @@ import { SalesComponent } from './sales/sales.component';
     IndividualStoreComponent,
     WarehouseDetailsComponent,
     ReportHistoryComponent,
-    SalesComponent
+    SalesComponent,
+    DiscountListComponent,
+    DiscountedDetailsComponent
   ],
   imports: [
     BrowserModule,
