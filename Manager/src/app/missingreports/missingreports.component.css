@@ -1,0 +1,99 @@
+.missingReports {
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  border: 1px solid white;
+  width: 95%;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: black;
+}
+#managerHead {
+  background-color: black;;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  width: 22%;
+}
+
+#cityHead {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  width: 15%;
+  text-align: center;
+}
+
+#phoneHead {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 15%;
+  padding: 15px;
+}
+
+#addressHead {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  width: 30%;
+  text-align: center;
+}
+
+.missingReports h4 {
+  color: orange;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-top: 0px;
+}
+
+.eachReport {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.city {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 13%;
+  text-align: center;
+}
+
+.address {
+  background-color: cyan;
+  color: black;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.manager {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 22%;
+}
+
+.phone {
+  background-color: cyan;
+  color: black;
+  text-align: center;
+  width: 15%;
+  padding: 15px;
+}

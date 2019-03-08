@@ -59,9 +59,10 @@
    background-color: rgba(0, 0, 0, 0.7);
    width: 100%;
    padding-top: 200px;
-   padding-bottom: 300px;
+   padding-bottom: 400px;
    position: fixed;
    top: 0px;
+   z-index: 3;
    visibility: hidden;
 }
 

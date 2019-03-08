@@ -26,6 +26,9 @@ import { MissingreportsComponent } from './missingreports/missingreports.compone
 import { ThresholdlistComponent } from './thresholdlist/thresholdlist.component';
 import { WarehousesComponent } from './warehouses/warehouses.component';
 import { IndividualStoreComponent } from './individual-store/individual-store.component';
+import { WarehouseDetailsComponent } from './warehouse-details/warehouse-details.component';
+import { ReportHistoryComponent } from './report-history/report-history.component';
+import { SalesComponent } from './sales/sales.component';
 
 
 @NgModule({
@@ -53,7 +56,10 @@ import { IndividualStoreComponent } from './individual-store/individual-store.co
     MissingreportsComponent,
     ThresholdlistComponent,
     WarehousesComponent,
-    IndividualStoreComponent
+    IndividualStoreComponent,
+    WarehouseDetailsComponent,
+    ReportHistoryComponent,
+    SalesComponent
   ],
   imports: [
     BrowserModule,

@@ -29,4 +29,8 @@ export class DashBoardComponent implements OnInit {
     this.router.navigate(['/thresholdlist']);
   }
 
+  reportHistory(){
+    this.router.navigate(['/reporthistory']);
+  }
+
 }

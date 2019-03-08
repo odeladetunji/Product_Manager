@@ -14,6 +14,9 @@ import { NewreportComponent } from './newreport/newreport.component';
 import { ThresholdlistComponent } from './thresholdlist/thresholdlist.component';
 import { WarehousesComponent } from './warehouses/warehouses.component';
 import { IndividualStoreComponent } from './individual-store/individual-store.component';
+import { WarehouseDetailsComponent } from './warehouse-details/warehouse-details.component';
+import { ReportHistoryComponent } from './report-history/report-history.component';
+import { SalesComponent } from './sales/sales.component';
 
 
 const routes: Routes = [
@@ -30,7 +33,10 @@ const routes: Routes = [
   {path: 'missingreports', component: MissingreportsComponent},
   {path: 'thresholdlist', component: ThresholdlistComponent},
   {path: 'warehouses', component: WarehousesComponent},
-  {path: 'individualstores', component: IndividualStoreComponent} 
+  {path: 'individualstores', component: IndividualStoreComponent},
+  {path: 'warehousedetails', component: WarehouseDetailsComponent},
+  {path: 'reporthistory', component: ReportHistoryComponent},
+  {path: 'sales', component: SalesComponent}
 ];
 
 @NgModule({

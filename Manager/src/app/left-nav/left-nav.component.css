@@ -24,3 +24,7 @@
 .leftNav ul li:nth-child(1) {
   margin-top: 10px;
 }
+
+.leftNav ul li a:hover {
+  color: orange;
+}

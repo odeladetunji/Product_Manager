@@ -19,16 +19,17 @@
 .add_a_product p span {
    text-align: center;
    padding: 10px 30px;
-   background-color: blue;
+   background-color: cyan;
+   color: black;
 }
 
 .add_a_product form {
    width: 60%;
-   border: 1px solid white;
    margin-left: 20%;
    margin-top: 70px;
    padding-top: 10px;
    padding-bottom: 60px;
+   background-color: black;
 }
 
 .add_a_product form input {
@@ -50,7 +51,7 @@
 }
 
 .add_a_product button {
-  padding: 10px 30px;
+  padding: 10px 50px;
   background-color: green;
   color: white;
   margin-top: 10px;

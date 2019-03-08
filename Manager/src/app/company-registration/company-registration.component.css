@@ -12,9 +12,9 @@
 
 .create_account_form {
   width: 60%;
-  border: 1px solid white;
   padding-top: 10px;
   padding-bottom: 30px;
+  background-color: black;
   margin-top: 60px;
   margin-left: 20%;
 }
@@ -31,7 +31,8 @@
 
 .create_account_form p span {
    padding: 10px 30px;
-   background-color: blue;
+   background-color: cyan;
+   color: black;
 }
 
 .create_account_form {
@@ -57,11 +58,10 @@
 }
 
 .create_account_form button {
-  padding: 10px 30px;
+  padding: 10px 50px;
   float: right;
   margin-right: 7.5%;
   background-color: green;
   color: white;
   border-radius: 5px;
-  border: 1px solid white;
 }

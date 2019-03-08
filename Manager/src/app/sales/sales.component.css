@@ -1,0 +1,35 @@
+.sales h4 {
+  font-size: 20px;
+  color: orange;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.salesHeading {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.salesHeading #item {
+   width: 40%;
+   padding: 10px;
+   color: white;
+   text-align: center;
+}
+
+.salesHeading #quantity {
+   width: 20%;
+   color: white;
+   text-align: center;
+   padding:10px;
+}
+
+.salesHeading #price {
+  width: 20%;
+  color: white;
+  text-align: center;
+  padding:10px;
+}

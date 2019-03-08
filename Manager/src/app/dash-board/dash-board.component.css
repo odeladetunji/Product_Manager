@@ -246,7 +246,7 @@ option {
 }
 
 .newReports .leftSide {
-  width: 70%;
+  width: 80%;
   background-color: cyan;
 }
 
@@ -267,7 +267,7 @@ option {
 }
 
 .absentReports .leftSide {
-  width: 70%;
+  width: 80%;
   background-color: orange;
 }
 
@@ -288,7 +288,7 @@ option {
 }
 
 .outlets .leftSide {
-  width: 70%;
+  width: 80%;
   background-color: cyan;
 }
 
@@ -301,4 +301,35 @@ option {
   padding-bottom: 20px;
   color: black;
   text-align: center;
+  cursor: pointer;
+}
+
+.todayReports {
+  width: 87% !important;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.previousReports {
+  width: 100% !important;
+  margin-top: 10px;
+}
+
+.previousReports p:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.previousReports p {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#today {
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 10px;
 }

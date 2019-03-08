@@ -41,31 +41,39 @@
   </div>
   <div class="widgets">
       <h4>Reports</h4>
-      <div class="newReports">
-        <div class="leftSide">
-          <p (click)="displayNewReports()">New Reports</p>
+      <div class="todayReports">
+        <p id="today">Todays Report</p>
+        <div class="newReports">
+          <div class="leftSide">
+            <p (click)="displayNewReports()">New Reports</p>
+          </div>
+          <div class="rightSide">
+            <p>45</p>
+          </div>
         </div>
-        <div class="rightSide">
-          <p>45</p>
+
+        <div class="absentReports">
+          <div class="leftSide">
+            <p (click)="displayMissingReports()">Missing Reports</p>
+          </div>
+          <div class="rightSide">
+            <p>65</p>
+          </div>
+        </div>
+
+        <div class="outlets">
+          <div class="leftSide">
+            <p>Expected Reports</p>
+          </div>
+          <div class="rightSide">
+             <p>43</p>
+          </div>
         </div>
       </div>
 
-      <div class="absentReports">
-        <div class="leftSide">
-          <p (click)="displayMissingReports()">Missing Reports</p>
-        </div>
-        <div class="rightSide">
-          <p>65</p>
-        </div>
+      <div class="previousReports">
+        <p (click)="reportHistory()">Report History</p>
       </div>
 
-      <div class="outlets">
-        <div class="leftSide">
-          <p>Expected Reports</p>
-        </div>
-        <div class="rightSide">
-           <p>43</p>
-        </div>
-      </div>
   </div>
 </div>

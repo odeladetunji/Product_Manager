@@ -23,7 +23,8 @@
 .sub_first_row .sub div {
    width: 80%;
    margin-left: 10%;
-   border: 1px solid white;
+   /* border: 1px solid white; */
+   background-color: black;
 }
 
 .sub_first_row .sub div h4 {
@@ -43,8 +44,7 @@
   background-color: green;
   color: white;
   font-size: 15px;
-  border: 1px solid white;
-  padding: 10px 30px;
+  padding: 5px 30px;
   border-radius: 5px;
   margin-bottom: 10px;
   margin-left: 25%;
