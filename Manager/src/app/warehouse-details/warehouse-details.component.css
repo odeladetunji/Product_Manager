@@ -1,6 +1,70 @@
-.warehouseDetials h4 {
-   color: orange;
-   font-size: 20px;
-   padding-left: 20px;
-   padding-bottom: 20px;
+.restock {
+
+}
+
+.restock i {
+  font-size: 170px;
+  color: cyan;
+  border: none;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.restock #heading {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 110px;
+  left: 200px;
+  list-style-type: none;
+}
+
+.restock .stockheading {
+  width: 96%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+}
+
+.restock .stockheading p {
+  width: 33.3%;
+  padding: 20px;
+  color: white;
+}
+
+.restock .products {
+  width: 96%;
+  margin-left: 20px;
+  margin-top: 5px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.restock .products p {
+  width: 33.3%;
+  padding: 20px;
+}
+
+.restock .total p {
+  width: 50%;
+}
+
+.restock .total {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 96%;;
+  margin-top: 5px;
+  background-color: cyan;
+  margin-left: 20px;
+}
+
+.restock .total p {
+  padding: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }

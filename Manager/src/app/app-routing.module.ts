@@ -19,7 +19,7 @@ import { ReportHistoryComponent } from './report-history/report-history.componen
 import { SalesComponent } from './sales/sales.component';
 import { DiscountListComponent } from './discount-list/discount-list.component';
 import { DiscountedDetailsComponent } from './discounted-details/discounted-details.component';
-
+import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
@@ -40,7 +40,8 @@ const routes: Routes = [
   {path: 'reporthistory', component: ReportHistoryComponent},
   {path: 'sales', component: SalesComponent},
   {path: 'discountedsales', component: DiscountListComponent},
-  {path: 'discounteddetails', component: DiscountedDetailsComponent}
+  {path: 'discounteddetails', component: DiscountedDetailsComponent},
+  {path: 'restockwarehouse', component: RestockWarehouseComponent}
 ];
 
 @NgModule({

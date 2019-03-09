@@ -2,4 +2,104 @@
   color: orange;
   font-size: 20px;
   margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.discountHeading {
+  width: 97%;
+  background-color: black;
+  margin-left: 20px;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.discountHeading #unit_price {
+  width: 20%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountHeading #item {
+  width: 20%;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   font-size: bold;
+}
+
+.discountHeading #price {
+  width: 20%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountHeading #discount {
+  color: white;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountHeading #quantity {
+  color: white;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountedItems {
+  width: 97%;
+  background-color: white;
+  margin-left: 20px;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+
+.discountedItems .unit_price {
+  width: 20%;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountedItems .item {
+  width: 20%;
+   color: black;
+   padding: 20px;
+   text-align: center;
+   font-size: bold;
+}
+
+.discountedItems .price {
+  width: 20%;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountedItems .discount {
+  color: black;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
+}
+
+.discountedItems .quantity {
+  color: black;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: bold;
 }

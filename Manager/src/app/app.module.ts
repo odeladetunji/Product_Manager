@@ -31,6 +31,7 @@ import { ReportHistoryComponent } from './report-history/report-history.componen
 import { SalesComponent } from './sales/sales.component';
 import { DiscountListComponent } from './discount-list/discount-list.component';
 import { DiscountedDetailsComponent } from './discounted-details/discounted-details.component';
+import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse.component';
 
 
 @NgModule({
@@ -63,7 +64,8 @@ import { DiscountedDetailsComponent } from './discounted-details/discounted-deta
     ReportHistoryComponent,
     SalesComponent,
     DiscountListComponent,
-    DiscountedDetailsComponent
+    DiscountedDetailsComponent,
+    RestockWarehouseComponent
   ],
   imports: [
     BrowserModule,

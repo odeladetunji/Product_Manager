@@ -14,7 +14,7 @@
   width: 60%;
   padding-top: 10px;
   padding-bottom: 30px;
-  background-color: black;
+  background-color: white;
   margin-top: 60px;
   margin-left: 20%;
 }
@@ -23,6 +23,7 @@
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .create_account_form p {
@@ -41,12 +42,13 @@
 
 .create_account_form label {
   margin-left: 7%;
+  color: black;
 }
 
 .create_account_form input {
   width: 80%;
   margin-left: 7%;
-  color: white;
+  color: black;
   /* background-color: silver; */
   padding: 17px;
   border-radius: 5px;
@@ -54,7 +56,7 @@
   border: none;
   font-size: 16px;
   background-color: transparent;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .create_account_form button {
