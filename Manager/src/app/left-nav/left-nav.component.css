@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.leftNav div {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
 .leftNav div p a {
   color: white;
   padding: 10px;
@@ -16,9 +21,18 @@
   padding: 10px;
 }
 
+.leftNav ul li:first-child {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 5px solid yellow;
+}
+
 .leftNav ul li a {
    color: white;
    text-decoration: none;
+   font-size: 14px;
+   font-family: sans-serif;
 }
 
 .leftNav ul li:nth-child(1) {

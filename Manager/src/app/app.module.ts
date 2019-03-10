@@ -32,6 +32,8 @@ import { SalesComponent } from './sales/sales.component';
 import { DiscountListComponent } from './discount-list/discount-list.component';
 import { DiscountedDetailsComponent } from './discounted-details/discounted-details.component';
 import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse.component';
+import { ProductsDetailsComponent } from './products-details/products-details.component';
+import { ProductsSettingsComponent } from './products-settings/products-settings.component';
 
 
 @NgModule({
@@ -65,7 +67,9 @@ import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse
     SalesComponent,
     DiscountListComponent,
     DiscountedDetailsComponent,
-    RestockWarehouseComponent
+    RestockWarehouseComponent,
+    ProductsDetailsComponent,
+    ProductsSettingsComponent
   ],
   imports: [
     BrowserModule,
