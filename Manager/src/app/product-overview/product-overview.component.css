@@ -2,7 +2,7 @@
   color: orange;
   font-size: 20px;
   margin-left: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
 }
 
 .discountHeading {
@@ -119,4 +119,32 @@
   background-color: cyan;
   color: black;
   font-weight: bold;
+}
+
+.ourassetvalue {
+  width: 30%;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  /* border: 1px solid white; */
+  padding: 5px;
+}
+
+.ourassetvalue p:first-child {
+  background-color: #00ced1;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ourassetvalue p:last-child {
+  background-color: #00ced1;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  /* border-top: 1px solid black; */
+}
+
+.ourassetvalue p {
+  padding: 15px;
 }

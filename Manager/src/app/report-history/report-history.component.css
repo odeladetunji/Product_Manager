@@ -4,3 +4,58 @@
    padding-left: 20px;
    padding-bottom: 20px;
 }
+
+.reporthistory input {
+  width: 90.5%;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.reporthistory .heading {
+  width: 96%;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  margin-left: 20px;
+  color: white;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.reporthistory .searching {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 95%;
+}
+
+.reporthistory .searching i {
+  font-size: 30px;
+  color: silver;
+  padding: 10px;
+  background-color: white;
+}
+
+.reporthistory p {
+  text-align: center;
+}
+
+.reporthistory .heading #city {
+    padding: 20px;
+    width: 25%;
+}
+
+.reporthistory .heading #manager {
+    padding: 20px;
+    width: 20%;
+}
+
+.reporthistory .heading #phone {
+    padding: 20px;
+    width: 20%;
+}
+
+.reporthistory .heading #address {
+    padding: 20px;
+    width: 20%;
+}

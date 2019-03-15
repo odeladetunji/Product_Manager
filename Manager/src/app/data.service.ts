@@ -6,4 +6,9 @@ import { Injectable } from '@angular/core';
 export class DataService {
 
   constructor() { }
+  //totalValue and soldValue calculated from result gotten from online database
+  percentageSold(){
+     return 'something';
+  }
+
 }

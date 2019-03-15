@@ -1,0 +1,107 @@
+.individualStore h4 {
+  color: orange;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.individualStore .header {
+  width: 96%;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 100px;
+}
+
+.individualStore .header #item {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .header #quantity {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .header #unitPrice {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .header #netPrice {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .myHeader {
+  width: 96%;
+  margin-left: 20px;
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  color: black;
+  margin-top: 5px;
+  /* margin-top: 100px; */
+}
+
+.individualStore .myHeader .item {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .myHeader .quantity {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .myHeader .unitPrice {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .myHeader .netPrice {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+
+.individualStore .netValue {
+  width: 30%;
+  background-color: black;
+  color: black;
+  padding: 5px;
+  /* margin-top: 100px; */
+  position: absolute;
+  margin-right: 10px;
+  right: 5px;
+  top: 0px;
+}
+
+.individualStore .netValue p {
+  padding: 20px;
+  background-color: #00ced1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.individualStore .netValue p:first-child {
+  padding: 20px;
+  background-color: #00ced1;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.individualStore .container {
+  margin-top: 100px;
+}

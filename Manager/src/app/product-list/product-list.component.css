@@ -1,0 +1,17 @@
+.productList {
+  width: 100%;
+}
+
+.productList .container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.productList .container div {
+  width: 250px;
+  height: 250px;
+  background-color: pink;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

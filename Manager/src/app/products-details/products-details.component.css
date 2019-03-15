@@ -1,0 +1,174 @@
+.ourProducts {
+  width: 100%;
+}
+
+.ourProducts .productDetails {
+  width: 96%;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ourProducts .productDetails .leftsection {
+  width: 50%;
+  border-right: 1px solid white;
+}
+
+.ourProducts .productDetails .leftsection div {
+   width: 400px;
+   height: 400px;
+   background-color: pink;
+}
+
+
+.ourProducts .productDetails .rightsection {
+  width: 50%;
+}
+
+.ourProducts .forStatus p {
+  width: 200px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  border-radius: 50%;
+  background-color: #1d7c19;
+  border: 5px solid white;
+  border-bottom: 5px solid orange;
+  border-right: 5px solid orange;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+}
+
+.ourProducts .rightsection .summary {
+   width: 80%;
+   background-color: black;
+   padding: 5px;
+   border: 1px solid white;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+
+.ourProducts .rightsection .summary h5 {
+  padding: 10px;
+  color: white;
+}
+
+.ourProducts .rightsection .summary .firsttab {
+  display: flex;
+  flex-wrap: nowrap;
+   width: 100%;
+}
+
+.ourProducts .rightsection .summary .firsttab p:first-child {
+   width: 50%;
+   background-color: cyan;
+   text-align: center;
+   padding: 20px;
+}
+
+.ourProducts .rightsection .summary .firsttab p:last-child {
+   width: 50%;
+   background-color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+.ourProducts .rightsection .summary .secondTab {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.ourProducts .rightsection .summary .secondTab p:first-child{
+  text-align: center;
+  background-color: cyan;
+  color: black;
+  width: 50%;
+  padding: 20px;
+}
+
+.ourProducts .rightsection .summary .secondTab p:last-child {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 50%;
+  padding: 20px;
+}
+
+.ourProducts .rightsection .summary .thirdTab {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.ourProducts .rightsection .summary .thirdTab p:first-child {
+  text-align: center;
+  background-color: cyan;
+  color: black;
+  width: 50%;
+  padding: 20px;
+}
+
+.ourProducts .rightsection .summary .thirdTab p:last-child {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 50%;
+  padding: 20px;
+}
+
+.thisProductDetails h5 {
+  color: orange;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.thisProductDetails p {
+  margin-left: 20px;
+  /* padding: 10px; */
+  text-align: justify;
+  width: 96%;
+  color: white;
+}
+
+.detailsFurther {
+  width: 40%;
+  border: 1px solid white;
+  margin-left: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.detailsFurther h5 {
+  color: white;
+  padding: 10px;
+}
+
+.detailsFurther .furtherDetails {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  /* padding: 5px; */
+  margin-top: 5px;
+  background-color: black;
+  /* border: 1px solid white; */
+  /* margin-left: 20px; */
+}
+
+.detailsFurther .furtherDetails p {
+  width: 50%;
+  padding: 20px;
+}
+
+.detailsFurther .furtherDetails p:first-child {
+  background-color: cyan;
+  color: black;
+}
+
+.detailsFurther .furtherDetails p:last-child {
+  background-color: white;
+  color: black;
+}

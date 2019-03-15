@@ -61,38 +61,39 @@
 .eachReport {
   display: flex;
   flex-wrap: nowrap;
-  width: 98%;
+  width: 95%;
   margin-left: 20px;
   margin-bottom: 10px;
+  background-color: #e65263;
 }
 
 .city {
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  color: white;
   padding: 20px;
   width: 13%;
   text-align: center;
 }
 
 .address {
-  background-color: cyan;
-  color: black;
+  /* background-color: cyan; */
+  color: white;
   padding: 20px;
   width: 30%;
   text-align: center;
 }
 
 .manager {
-  background-color: white;
-  color: black;
+  /* background-color: white; */
+  color: white;
   padding: 20px;
   text-align: center;
   width: 22%;
 }
 
 .phone {
-  background-color: cyan;
-  color: black;
+  /* background-color: cyan; */
+  color: white;
   text-align: center;
   width: 15%;
   padding: 15px;

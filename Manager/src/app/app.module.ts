@@ -34,6 +34,7 @@ import { DiscountedDetailsComponent } from './discounted-details/discounted-deta
 import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse.component';
 import { ProductsDetailsComponent } from './products-details/products-details.component';
 import { ProductsSettingsComponent } from './products-settings/products-settings.component';
+import { ThresholdDetailsComponent } from './threshold-details/threshold-details.component';
 
 
 @NgModule({
@@ -69,7 +70,8 @@ import { ProductsSettingsComponent } from './products-settings/products-settings
     DiscountedDetailsComponent,
     RestockWarehouseComponent,
     ProductsDetailsComponent,
-    ProductsSettingsComponent
+    ProductsSettingsComponent,
+    ThresholdDetailsComponent
   ],
   imports: [
     BrowserModule,

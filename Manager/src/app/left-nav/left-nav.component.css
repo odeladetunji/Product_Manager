@@ -9,7 +9,7 @@
 
 .leftNav div p a {
   color: white;
-  padding: 10px;
+  padding-left: 3px;
   padding-top: 20px;
   padding-bottom: 20px;
   cursor: pointer;
@@ -18,7 +18,14 @@
 
 .leftNav ul li {
   list-style-type: none;
-  padding: 10px;
+  padding: 3px;
+  padding-top: 10px;
+  border: none;
+  padding-bottom: 10px;
+  /* border-top: 1px solid silver; */
+  /* border-bottom: 1px solid silver; */
+  /* margin-top: 20px; */
+  /* border-radius: 5px; */
 }
 
 .leftNav ul li:first-child {
@@ -31,8 +38,9 @@
 .leftNav ul li a {
    color: white;
    text-decoration: none;
-   font-size: 14px;
+   font-size: 16px;
    font-family: sans-serif;
+   font-weight: bold;
 }
 
 .leftNav ul li:nth-child(1) {
@@ -41,4 +49,42 @@
 
 .leftNav ul li a:hover {
   color: orange;
+}
+
+.leftNav span {
+  font-size: 20px;
+  padding-right: 5px;
+  color: #808080;
+}
+
+.calender {
+  width: 95%;
+  background-color: #e49dae;
+  margin-left: 2%;
+}
+
+.calender h4 {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
+
+.calender p {
+  text-align: center;
+}
+
+.calender #day {
+  padding-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.calender #month {
+   padding-top: 30px;
+   padding-bottom: 20px;
+   font-size: 20px;
+   /* color: white; */
+   font-weight: bold;
 }
