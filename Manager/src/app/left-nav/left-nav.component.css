@@ -2,6 +2,7 @@
   width: 100%;
 }
 
+
 .leftNav div {
   margin-top: 7px;
   margin-bottom: 7px;
@@ -44,7 +45,7 @@
 }
 
 .leftNav ul li:nth-child(1) {
-  margin-top: 10px;
+  margin-top: 60px;
 }
 
 .leftNav ul li a:hover {

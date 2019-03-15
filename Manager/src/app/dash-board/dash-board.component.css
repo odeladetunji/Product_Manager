@@ -4,41 +4,46 @@
   margin-bottom: 40px;
 }
 
-.board div {
-  width:  50%;
-}
 .stockStatus {
-  width: 50%;
-  border-left: 5px solid white;
+  width: 30%;
+  margin-left: 20px;
+  background-color: black;
+  padding-top: 20px;
+  border-radius: 5px;
+  /* border-left: 5px solid white; */
 }
 
 .stockStatus h5 {
   text-align: center;
-  color: orange;
+  color: cyan;
   font-size: 20px;
-  padding: 10px;
+  /* padding: 10px; */
   padding-bottom: 20px;
 }
 .stockStatus p {
   background-color: darkgreen;
   color: white;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 50%;
   border: 10px solid white;
   text-align: center;
-  width: 200px;
-  margin-left: 20%;
+  width: 100px;
+  margin-left: 30px;
   border-right: 10px solid orange;
   border-bottom: 10px solid orange;
 }
 
 .volumes {
-  width: 50%;
+  width: 24.8%;
+  border-radius: 5px;
+  padding-top: 20px;
   padding-right: 20px;
   padding-left: 30px;
+  margin-left: 20px;
+  background-color: black;
 }
 
 .volumes .selectForm {
@@ -70,7 +75,7 @@ option {
   top: 10%;
   height: 90%;
   background-color: darkgreen;
-  width: 55%;
+  width: 35%;
   border: 1px solid white;
   border-top-right-radius: 10px;
 }
@@ -83,10 +88,10 @@ option {
   position: absolute;
   height: 90%;
   top: 10%;
-  left: 60%;
+  left: 45%;
   background-color: black;
-  margin-left: 10%;
-  width: 55% !important;
+  /* margin-left: 2%; */
+  width: 35% !important;
   border: 1px solid white;
   border-top-right-radius: 10px;
 }
@@ -112,7 +117,7 @@ option {
   position: relative;
   width: 100%;
   margin-top: 40px;
-  height: 280px;
+  height: 145px;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -129,7 +134,7 @@ option {
 }
 
 .volumes .leftTile h4 {
-  color: orange;
+  color: cyan;
   padding-left: 20px;
   font-size: 20px;
 }
@@ -139,13 +144,17 @@ option {
 }
 
 .widgets {
-  width: 50%;
-  border-left: 5px solid white;
+  width: 27% !important;
   padding-left: 30px;
+  background-color: black;
+  border-radius: 5px;
+  padding-top: 20px;
+  margin-left: 20px;
+  padding-bottom: 20px;
 }
 
 .widgets h4 {
-  color: orange;
+  color: cyan;
   font-size: 20px;
   padding-bottom: 20px;
 }
@@ -170,20 +179,24 @@ option {
 }
 
 .warehouses {
-  width: 40%;
-  margin-left: 3%;
+  width: 25.5%;
   padding-left: 30px;
-  border: 1px solid white;
+  /* border-left: 5px solid white; */
   padding: 20px;
   border-radius: 5px;
+  padding-top: 20px;
+  margin-left: 20px;
+  /* border-radius: 5px; */
+  background-color: black;
   border-right: none;
 }
 
 .warehouses i {
-  font-size: 250px;
+  font-size: 200px;
   border: none;
   color: cyan;
-  margin-left: 22%;
+  padding-left: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
@@ -191,9 +204,9 @@ option {
   color: white;
 }
 .warehouses h4 {
-  color: orange;
+  color: cyan;
   font-size: 20px;
-  padding: 10px;
+  /* padding: 10px; */
   padding-bottom: 20px;
   text-align: center;
 }
