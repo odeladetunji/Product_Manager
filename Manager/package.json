@@ -1,10 +1,9 @@
 {
   "name": "manager",
   "version": "0.0.0",
-  "main": "main.js",
   "scripts": {
     "ng": "ng",
-    "start": "electron .",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

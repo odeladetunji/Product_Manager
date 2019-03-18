@@ -22,6 +22,9 @@ import { DiscountedDetailsComponent } from './discounted-details/discounted-deta
 import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse.component';
 import { ThresholdDetailsComponent } from './threshold-details/threshold-details.component';
 import { ProductsDetailsComponent } from './products-details/products-details.component';
+import { RequestStatusComponent } from './request-status/request-status.component';
+import { RequestDetailsComponent } from './request-details/request-details.component';
+
 
 
 const routes: Routes = [
@@ -46,7 +49,9 @@ const routes: Routes = [
   {path: 'discounteddetails', component: DiscountedDetailsComponent},
   {path: 'restockwarehouse', component: RestockWarehouseComponent},
   {path: 'thresholddetails', component: ThresholdDetailsComponent},
-  {path: 'thisproduct', component: ProductsDetailsComponent}
+  {path: 'thisproduct', component: ProductsDetailsComponent},
+  {path: 'requeststatus', component: RequestStatusComponent},
+  {path: 'reqestedproducts', component: RequestDetailsComponent}
 ];
 
 @NgModule({

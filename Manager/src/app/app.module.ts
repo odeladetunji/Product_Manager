@@ -35,6 +35,9 @@ import { RestockWarehouseComponent } from './restock-warehouse/restock-warehouse
 import { ProductsDetailsComponent } from './products-details/products-details.component';
 import { ProductsSettingsComponent } from './products-settings/products-settings.component';
 import { ThresholdDetailsComponent } from './threshold-details/threshold-details.component';
+import { RequestStatusComponent } from './request-status/request-status.component';
+import { RequestDetailsComponent } from './request-details/request-details.component';
+import { ProcurementRequestComponent } from './procurement-request/procurement-request.component';
 
 
 @NgModule({
@@ -71,7 +74,10 @@ import { ThresholdDetailsComponent } from './threshold-details/threshold-details
     RestockWarehouseComponent,
     ProductsDetailsComponent,
     ProductsSettingsComponent,
-    ThresholdDetailsComponent
+    ThresholdDetailsComponent,
+    RequestStatusComponent,
+    RequestDetailsComponent,
+    ProcurementRequestComponent
   ],
   imports: [
     BrowserModule,
