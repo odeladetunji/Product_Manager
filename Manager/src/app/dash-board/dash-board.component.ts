@@ -41,4 +41,8 @@ export class DashBoardComponent implements OnInit {
     this.router.navigate(['/requeststatus']);
   }
 
+  showProcurementRequest(){
+    this.router.navigate(['/showprocurementrequest']);
+  }
+
 }

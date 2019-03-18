@@ -1,0 +1,65 @@
+.parent {
+  width: 100%;
+}
+
+.parent h4 {
+  color: orange;
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 96%;
+  border: 1px solid white;
+  margin-left: 20px;
+  background-color: black;
+}
+
+.heading p {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.outgoingRequest {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 96%;
+  border: 1px solid white;
+  margin-top: 2px;
+  margin-left: 20px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.outgoingRequest:hover {
+  border: 1px solid cyan;
+}
+
+.outgoingRequest p {
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+.status {
+  padding-left: 40px;
+  background-color: green;
+}
+
+.status span {
+   padding: 10px 30px;
+   /* border: 1px solid orange; */
+   background-color: #e15c46;
+   color: white;
+}
+
+.parent i {
+  font-size: 150px;
+  color: cyan;
+  margin-left: 20px;
+  margin-top: 10px;
+}

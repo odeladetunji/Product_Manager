@@ -38,6 +38,7 @@ import { ThresholdDetailsComponent } from './threshold-details/threshold-details
 import { RequestStatusComponent } from './request-status/request-status.component';
 import { RequestDetailsComponent } from './request-details/request-details.component';
 import { ProcurementRequestComponent } from './procurement-request/procurement-request.component';
+import { ProcurementDetailsComponent } from './procurement-details/procurement-details.component';
 
 
 @NgModule({
@@ -77,7 +78,8 @@ import { ProcurementRequestComponent } from './procurement-request/procurement-r
     ThresholdDetailsComponent,
     RequestStatusComponent,
     RequestDetailsComponent,
-    ProcurementRequestComponent
+    ProcurementRequestComponent,
+    ProcurementDetailsComponent
   ],
   imports: [
     BrowserModule,

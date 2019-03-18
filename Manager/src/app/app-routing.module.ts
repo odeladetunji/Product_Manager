@@ -24,7 +24,8 @@ import { ThresholdDetailsComponent } from './threshold-details/threshold-details
 import { ProductsDetailsComponent } from './products-details/products-details.component';
 import { RequestStatusComponent } from './request-status/request-status.component';
 import { RequestDetailsComponent } from './request-details/request-details.component';
-
+import { ProcurementRequestComponent } from './procurement-request/procurement-request.component';
+import { ProcurementDetailsComponent } from './procurement-details/procurement-details.component';
 
 
 const routes: Routes = [
@@ -51,7 +52,9 @@ const routes: Routes = [
   {path: 'thresholddetails', component: ThresholdDetailsComponent},
   {path: 'thisproduct', component: ProductsDetailsComponent},
   {path: 'requeststatus', component: RequestStatusComponent},
-  {path: 'reqestedproducts', component: RequestDetailsComponent}
+  {path: 'reqestedproducts', component: RequestDetailsComponent},
+  {path: 'showprocurementrequest', component: ProcurementRequestComponent},
+  {path: 'procurementdetails', component: ProcurementDetailsComponent}
 ];
 
 @NgModule({
